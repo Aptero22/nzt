@@ -1,0 +1,113 @@
+.last {
+    margin-top: 133px;
+    .container {
+        padding: 0 0 0 50px;
+    }
+    &-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 130%;
+        color: #252627;
+    }
+    &-shell {
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: 40px;
+            padding-right: 50px;
+            &-link {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: right;
+                color: #1E5AAF;
+            }
+        }
+    }
+    &-slider {
+        margin-top: 42px;
+        overflow: hidden;
+        &__inner {
+            width: 150%;
+            display: flex;
+            transition: all 0.5s ease 0s;
+        }
+        &__wrapper {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(9, 46, 98, 0.3) 0%, 
+            rgba(65, 124, 209, 0.3) 100%), #1E5AAF;
+            border-radius: 5px;
+            width: 879px;
+            padding: 61px 99px 67px 110px;
+            margin-right: 44px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &-name {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                position: relative;
+                &:before {
+                    content: '';
+                    background: url('/src/icons/person.png');
+                    display: block;
+                    width: 89px;
+                    height: 89px;
+                    position: absolute;
+                    right: 0;
+                }
+            }
+            &-info {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 130%;
+                color: #557EB8;
+                max-width: 446px;
+                margin-top: 20px;
+            }
+            &-quote {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 140%;
+                color: #9FB7DB;
+                max-width: 672px;
+                margin-top: 76px;
+            }
+            &-video {
+                display: block;
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                color: #FFFFFF;
+                margin-top: 50px;
+                position: relative;
+                &:before {
+                    content: '';
+                    background: url('/src/icons/more-arrow.png')center/cover no-repeat;
+                    width: 6px;
+                    height: 12px;
+                    display: block;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+                    position: absolute;
+                }
+            }
+        }   .active {
+                background: linear-gradient(0deg, rgba(9, 46, 98, 0.3) 0%, rgba(65, 124, 209, 0.3) 100%), #1E5AAF;
+                box-shadow: 0px 0px 10px rgba(6, 31, 67, 0.3);
+            }
+    }
+    
+}

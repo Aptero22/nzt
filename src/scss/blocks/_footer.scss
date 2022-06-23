@@ -1,0 +1,37 @@
+.footer {
+    background: #051A2C;
+    margin-top: 120px;
+    .container {
+        padding: 47px 50px;
+    }
+    &-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #FDFDFD;
+    }
+    &-wrapper {
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &__copyright, &__personal, &__privacy, &__country {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #8C8D98;
+            margin-right: 82px;
+            text-decoration: none;
+        }
+        &__personal {
+            margin-right: 40px;
+        }
+        &__privacy {
+            margin-right: 254px;
+        }
+        &__country {
+            margin-right: 0;
+        }
+    }
+}

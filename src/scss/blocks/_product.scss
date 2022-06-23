@@ -1,0 +1,150 @@
+.product {
+    margin-top: 120px;
+    .container {
+        padding: 0 50px;
+    }
+    &-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        color: #1E5AAF;
+    }
+    &-description {
+        width: 646px;
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 140%;
+            color: #797A84;
+            &:nth-child(1) {
+                margin-top: 50px;
+            }
+            &:nth-child(2) {
+                margin-top: 35px;
+            }
+        }
+        
+    }
+    &-advantages {
+        display: flex;
+        margin-top: 120px;
+        &__card {
+            background: linear-gradient(0deg, rgba(9, 46, 98, 0.3) 0%, rgba(65, 124, 209, 0.3) 100%), #1E5AAF;
+            box-shadow: 0px 0px 10px rgba(6, 31, 67, 0.3);
+            border-radius: 5px;
+            width: 300px;
+            height: 413px;
+            margin-right: 46px;
+            padding: 35px 35px 40px 35px;
+            cursor: pointer;
+            position: relative;
+            transition: 0.5s ease;
+            &:last-child {
+                margin-right: 0;
+            }
+            &-title {
+                font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: #FFFFFF;
+            }
+            &-subtitle {
+                margin-top: 15px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                color: rgba(253, 253, 253, 0.5);
+            }
+            &::before {
+                content: '';
+                background: url('/src/icons/vector-white.png')center/cover no-repeat;
+                width: 6px;
+                height: 12px;
+                display: block;
+                position: absolute;
+                bottom: 35px;
+                right: 35px;
+            }
+            &:hover {
+                background: #0F3974;
+                transition: 0.5s all ease-out;
+            }
+        }
+        
+    }
+    &-shell {
+        margin-top: 120px;
+        &__arrows {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 72px;
+            &-prev, &-next {
+                cursor: pointer;
+            }
+        }
+    }
+    &-slider {
+        overflow: hidden;
+        &__inner {
+            display: flex;
+            transition: all 0.5s ease 0s;
+        }
+    }
+    .slide-wrapper {
+        width: 1340px;
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        &__img {
+            // width: 100%;
+        }
+        &__info {
+            background: linear-gradient(0deg, rgba(9, 46, 98, 0.3) 0%, rgba(65, 124, 209, 0.3) 100%), #1E5AAF;
+            border-radius: 0 5px 5px 0;
+            padding: 45px 80px 0 45px ;
+            &-text {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 140%;
+                color: #FDFDFD;
+            }
+            &-date {
+                margin-top: 20px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+                color: #8EA9D0;
+            }
+            &-more {
+                margin-top: 40px;
+                display: block;
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 18px;
+                color: #FDFDFD;
+                position: relative;
+                width: 96px;
+                &:before {
+                    content: '';
+                    background: url('/src/icons/more-arrow.png')center/cover no-repeat;
+                    display: block;
+                    width: 5px;
+                    height: 10px;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+
+                }
+            }
+        }
+    }
+    
+}
+

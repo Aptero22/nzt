@@ -1,0 +1,41 @@
+.navigation {
+    margin-top: 50px;
+    &-wrapper {
+        padding: 0 50px;
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            &-item {
+                padding: 25px 14px 25px 0;
+                width: 416px;
+                border-top: 1px solid #DADCE7;
+                margin-right: 45px;
+                position: relative;
+                &-link {
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 18px;
+                    color: #252627;
+                    
+                }
+                &:before {
+                    content: '';
+                    background: url('/src/icons/vector.png')center center/cover no-repeat;
+                    width: 6px;
+                    height: 12px;
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 14px;
+                }
+            }
+            &-item:nth-child(3), &-item:nth-child(6) {
+                margin-right: 0;
+            }
+        }
+    }
+    
+}

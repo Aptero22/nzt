@@ -1,0 +1,41 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Graphik LCG';
+    // font-weight: 500;
+    
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+@import './blocks/header';
+@import './blocks/navigation';
+@import './blocks/product';
+@import './blocks/last';
+@import './blocks/footer';
+

@@ -1,8 +1,5 @@
 .last {
     margin-top: 133px;
-    .container {
-        // padding: 0 0 0 50px;
-    }
     &-title {
         font-style: normal;
         font-weight: 500;
@@ -53,11 +50,11 @@
                 line-height: 130%;
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
-                color: #FFFFFF;
+                color: $main-color;
                 position: relative;
                 &:before {
                     content: '';
-                    background: url('/src/icons/person.png') no-repeat;
+                    background: url('./..//icons/person.png') no-repeat;
                     display: block;
                     width: 89px;
                     height: 89px;
@@ -89,12 +86,12 @@
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 18px;
-                color: #FFFFFF;
+                color: $main-color;
                 margin-top: 50px;
                 position: relative;
                 &:before {
                     content: '';
-                    background: url('/src/icons/more-arrow.png')center/cover no-repeat;
+                    background: url('./..//icons/more-arrow.png')center/cover no-repeat;
                     width: 6px;
                     height: 12px;
                     display: block;

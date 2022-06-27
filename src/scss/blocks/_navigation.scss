@@ -1,7 +1,6 @@
 .navigation {
     margin-top: 50px;
     &-wrapper {
-        // padding: 0 50px;
         &__list {
             display: flex;
             justify-content: space-between;
@@ -24,7 +23,7 @@
                 }
                 &:before {
                     content: '';
-                    background: url('/src/icons/vector.png')center center/cover no-repeat;
+                    background: url('./..//icons/vector.png')center center/cover no-repeat;
                     width: 6px;
                     height: 12px;
                     display: block;

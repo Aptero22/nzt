@@ -1,5 +1,4 @@
 .menu-modal {
-    // display: none;
     position: fixed;
     top: 0;
     left: -100%;
@@ -27,7 +26,7 @@
                 display: block;
             }
             &:hover {
-                color: #ffffff;
+                color: $main-color;
             } 
             &-submenu {
                    display: none;
@@ -43,7 +42,7 @@
                     margin-top: 10px;
                     font-weight: 500;
                     &:hover {
-                        color: #ffffff;
+                        color: $main-color;
                     }
                 }
             }
@@ -63,7 +62,7 @@
                 text-decoration: none;
                 font-size: 20px;
                 &:hover {
-                    color: #ffffff;
+                    color: $main-color;
                 }
                 
                 
@@ -80,16 +79,6 @@
         left: 0;
         visibility: visible;
         opacity: 1;
-    }
-    &__overlay {
-        // position: fixed;
-        // top: 0;
-        // left: 0;
-        // width: 100%;
-        // height: 100%;
-        // background-color: #fff;
-        // opacity: 0.75;
-        // z-index: -1;
     }
     &__close {
         position: absolute;

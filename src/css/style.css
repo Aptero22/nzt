@@ -32,7 +32,7 @@ ol[class] {
 }
 
 .header {
-  background: url("/src/img/header-background.png") center center/cover no-repeat;
+  background: url("./../img/header-background.png") center center/cover no-repeat;
   height: 548px;
   width: 100%;
   margin: 0 auto;
@@ -48,7 +48,7 @@ ol[class] {
   height: 5px;
   width: 45px;
   display: block;
-  background: #ffffff;
+  background: #FFFFFF;
   margin-bottom: 8px;
 }
 .header-hamburger span:last-child {
@@ -197,7 +197,7 @@ ol[class] {
 }
 .header-more:before {
   content: "";
-  background: url("/src/icons/more-arrow.png") center/cover no-repeat;
+  background: url("./..//icons/more-arrow.png") center/cover no-repeat;
   display: block;
   width: 8px;
   height: 13px;
@@ -208,8 +208,7 @@ ol[class] {
 }
 
 .changeColor {
-  background-color: #fff;
-  width: 100% !important;
+  background-color: #FFFFFF;
   padding-bottom: 5px;
 }
 .changeColor .header-buy {
@@ -223,7 +222,7 @@ ol[class] {
   color: #000;
 }
 .changeColor .header-menu__list-icon path {
-  fill: #1E5AAF;
+  stroke: #1E5AAF;
 }
 .changeColor .header-logo__img path {
   fill: #1E5AAF;
@@ -261,7 +260,7 @@ ol[class] {
 }
 .navigation-wrapper__list-item:before {
   content: "";
-  background: url("/src/icons/vector.png") center center/cover no-repeat;
+  background: url("./..//icons/vector.png") center center/cover no-repeat;
   width: 6px;
   height: 12px;
   display: block;
@@ -334,7 +333,7 @@ ol[class] {
 }
 .product-advantages__card::before {
   content: "";
-  background: url("/src/icons/vector-white.png") center/cover no-repeat;
+  background: url("./..//icons/vector-white.png") center/cover no-repeat;
   width: 6px;
   height: 12px;
   display: block;
@@ -405,7 +404,7 @@ ol[class] {
 }
 .product .slide-wrapper__info-more:before {
   content: "";
-  background: url("/src/icons/more-arrow.png") center/cover no-repeat;
+  background: url("./..//icons/more-arrow.png") center/cover no-repeat;
   display: block;
   width: 5px;
   height: 10px;
@@ -472,7 +471,7 @@ ol[class] {
 }
 .last-slider__wrapper-name:before {
   content: "";
-  background: url("/src/icons/person.png") no-repeat;
+  background: url("./..//icons/person.png") no-repeat;
   display: block;
   width: 89px;
   height: 89px;
@@ -509,7 +508,7 @@ ol[class] {
 }
 .last-slider__wrapper-video:before {
   content: "";
-  background: url("/src/icons/more-arrow.png") center/cover no-repeat;
+  background: url("./..//icons/more-arrow.png") center/cover no-repeat;
   width: 6px;
   height: 12px;
   display: block;
@@ -754,7 +753,6 @@ ol[class] {
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
-    padding-top: 45px;
   }
   .header-menu {
     height: 50px;
@@ -812,9 +810,6 @@ ol[class] {
   }
 }
 @media (max-width: 849px) {
-  .header-wrapper {
-    padding-top: 20px;
-  }
   .header-menu {
     height: 35px;
   }
@@ -1030,11 +1025,15 @@ ol[class] {
     width: 192px;
   }
   .product .slide-wrapper__img {
-    width: 64%;
-    height: 70%;
+    width: 70%;
+    height: 100%;
   }
   .product .slide-wrapper__info {
-    height: 70%;
+    height: 100%;
+    padding-bottom: 5px;
+  }
+  .product .slide-wrapper__info-more {
+    font-size: 15px;
   }
 
   .last-title {
@@ -1136,12 +1135,35 @@ ol[class] {
   .product-advantages {
     margin-top: 30px;
   }
+  .product .slide-wrapper {
+    flex-direction: column;
+  }
+  .product .slide-wrapper__img {
+    width: 100%;
+  }
+  .product .slide-wrapper__info {
+    padding: 5px 5px 0 10px;
+    border-radius: 0 0 5px 5px;
+  }
+  .product .slide-wrapper__info-date {
+    margin-top: 10px;
+  }
+  .product .slide-wrapper__info-more {
+    margin-top: 20px;
+  }
+  .product .slide-wrapper__info-text {
+    font-size: 13px;
+  }
 
   .footer-title {
     font-size: 18px;
   }
   .footer-wrapper__copyright, .footer-wrapper__personal, .footer-wrapper__privacy, .footer-wrapper__country {
     font-size: 13px;
+  }
+
+  .last-title {
+    font-size: 18px;
   }
 }
 @media (max-width: 321px) {
@@ -1219,7 +1241,7 @@ ol[class] {
   display: block;
 }
 .menu-modal__list-item:hover {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .menu-modal__list-item-submenu {
   display: none;
@@ -1237,7 +1259,7 @@ ol[class] {
   font-weight: 500;
 }
 .menu-modal__list-item-submenu-item:hover {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .menu-modal__list-item-icon {
   width: 13px;
@@ -1256,7 +1278,7 @@ ol[class] {
   font-size: 20px;
 }
 .menu-modal__list-item-link:hover {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .menu-modal__list-item:hover .menu-modal__list-item-icon {
   transform: translateY(-25%) rotate(180deg);

@@ -1,7 +1,6 @@
 .header {
-    background: url('/src/img/header-background.png') center center/cover no-repeat;
+    background: url('./../img/header-background.png') center center/cover no-repeat;
     height: 548px;
-    // background-size: auto;
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -14,7 +13,7 @@
             height: 5px;
             width: 45px;
             display: block;
-            background: #ffffff;
+            background: $main-color;
             margin-bottom: 8px;
             &:last-child {
                 margin-bottom: 0;
@@ -25,7 +24,6 @@
         margin-right: 70px;
     }
     &-wrapper {
-        // width: 1440px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -53,7 +51,6 @@
                 font-weight: 400;
                 font-size: 18px;
                 cursor: pointer;
-                // position: relative;
                 height: 80px;
                 line-height: 80px;
                 &:hover {
@@ -70,7 +67,7 @@
                     padding: 0 50px 50px 50px;
                     width: 1440px;
                     position: absolute;
-                    background: #FFFFFF;
+                    background: $main-color;
                     display: none;
                     left: 0;
                     top: 80px;
@@ -107,13 +104,10 @@
                 }
             }
             &-icon {
-                // background: url('/src/icons/more-arrow.png') center center/cover no-repeat;
                 width: 13px;
                 height: 12px;
                 display: inline-block;
                 margin-left: 10px;
-                // right: -20px;
-                // top: 50%;
                 transform: translateY(-25%) rotate(0deg);
                 transition: 0.2s ease;
                 vertical-align: sub;
@@ -133,7 +127,7 @@
     }
     &-check {
         text-decoration: none;
-        color: #FFFFFF;
+        color: $main-color;
         display: block;
         font-weight: 400;
         font-size: 18px;
@@ -143,7 +137,7 @@
         margin-right: 15px;
     }
     &-buy {
-        background: #FFFFFF;
+        background: $main-color;
         border: none;
         border-radius: 25px;
         padding: 14px 20px;
@@ -154,7 +148,7 @@
     }
     &-title {
         padding-top: 160px;
-        color: #FFFFFF;
+        color: $main-color;
         font-style: normal;
         font-weight: 500;
         font-size: 80px;
@@ -163,7 +157,7 @@
     &-more {
         margin-top: 50px;
         display: block;
-        color: #FFFFFF;
+        color: $main-color;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -172,7 +166,7 @@
         width: 130px;
         &:before {
             content: '';
-            background: url('/src/icons/more-arrow.png')center/cover no-repeat;
+            background: url('./..//icons/more-arrow.png')center/cover no-repeat;
             display: block;
             width: 8px;
             height: 13px;
@@ -185,8 +179,7 @@
 }
 
 .changeColor {
-    background-color: #fff;
-    width: 100% !important;
+    background-color: $main-color;
     padding-bottom: 5px;
     .header {
         &-buy {
@@ -203,7 +196,7 @@
                 }
                 &-icon {
                     path {
-                        fill: #1E5AAF;
+                        stroke: #1E5AAF;
                     }
                 }
             }

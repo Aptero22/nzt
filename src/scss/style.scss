@@ -32,6 +32,8 @@ ol[class] {
     margin: 0 auto;
 }
 
+@import './blocks/variables';
+
 @import './blocks/header';
 @import './blocks/navigation';
 @import './blocks/product';

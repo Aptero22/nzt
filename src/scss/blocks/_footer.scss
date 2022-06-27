@@ -2,7 +2,7 @@
     background: #051A2C;
     margin-top: 120px;
     .container {
-        padding: 47px 50px;
+        padding: 47px 0;
     }
     &-title {
         font-weight: 400;
@@ -13,7 +13,7 @@
     &-wrapper {
         margin-top: 50px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
         &__copyright, &__personal, &__privacy, &__country {
             font-style: normal;

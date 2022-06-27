@@ -1,7 +1,7 @@
 .product {
     margin-top: 120px;
     .container {
-        padding: 0 50px;
+        // padding: 0 50px;
     }
     &-title {
         font-style: normal;
@@ -28,6 +28,7 @@
     }
     &-advantages {
         display: flex;
+        justify-content: space-between;
         margin-top: 120px;
         &__card {
             background: linear-gradient(0deg, rgba(9, 46, 98, 0.3) 0%, rgba(65, 124, 209, 0.3) 100%), #1E5AAF;
@@ -93,13 +94,10 @@
         }
     }
     .slide-wrapper {
-        width: 1340px;
+        width: 1440px;
         display: flex;
         justify-content: center;
         margin-top: 35px;
-        &__img {
-            // width: 100%;
-        }
         &__info {
             background: linear-gradient(0deg, rgba(9, 46, 98, 0.3) 0%, rgba(65, 124, 209, 0.3) 100%), #1E5AAF;
             border-radius: 0 5px 5px 0;
@@ -129,7 +127,7 @@
                 line-height: 18px;
                 color: #FDFDFD;
                 position: relative;
-                width: 96px;
+                max-width: 120px;
                 &:before {
                     content: '';
                     background: url('/src/icons/more-arrow.png')center/cover no-repeat;

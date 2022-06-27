@@ -1,9 +1,11 @@
 .navigation {
     margin-top: 50px;
     &-wrapper {
-        padding: 0 50px;
+        // padding: 0 50px;
         &__list {
             display: flex;
+            justify-content: space-between;
+            align-items: center;
             flex-wrap: wrap;
             &-item {
                 padding: 25px 14px 25px 0;

@@ -1,7 +1,7 @@
 .last {
     margin-top: 133px;
     .container {
-        padding: 0 0 0 50px;
+        // padding: 0 0 0 50px;
     }
     &-title {
         font-style: normal;
@@ -57,7 +57,7 @@
                 position: relative;
                 &:before {
                     content: '';
-                    background: url('/src/icons/person.png');
+                    background: url('/src/icons/person.png') no-repeat;
                     display: block;
                     width: 89px;
                     height: 89px;

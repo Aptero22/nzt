@@ -24,7 +24,6 @@ ol[class] {
 * {
     box-sizing: border-box;
     font-family: 'Graphik LCG';
-    // font-weight: 500;
     
 }
 
@@ -38,4 +37,6 @@ ol[class] {
 @import './blocks/product';
 @import './blocks/last';
 @import './blocks/footer';
+@import './blocks/media';
+@import './blocks/modal';
 
